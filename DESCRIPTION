@@ -1,0 +1,15 @@
+Package: pasteImgMacAddin
+Title: Rstudio addins for pasting images into RMarkdown files
+Version: 0.1.0
+Authors@R: person("Adam", "Lyon", email="lyon@fnal.gov", role=c("aut", "cre"))
+Description: Pastes an image from the clipboard to a file in the images directory
+  and then inserts text into the open RMarkdown file.
+Encoding: UTF-8
+Depends:
+  R (>= 3.0.0)
+Imports:
+  rstudioapi (>= 0.6),
+  glue
+LazyData: true
+License: file LICENSE
+RoxygenNote: 6.0.1

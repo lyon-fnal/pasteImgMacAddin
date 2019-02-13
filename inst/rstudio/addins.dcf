@@ -1,0 +1,9 @@
+Name: Insert Include Graphics
+Description: Paste image to file and insert `include_graphics` block at cursor
+Binding: insertIncludeGraphics
+Interactive: false
+
+Name: Insert Markdown Image
+Description: Paste image to file and insert markdown image at cursor
+Binding: insertMarkdownImage
+Interactive: false
